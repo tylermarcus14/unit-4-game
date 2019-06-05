@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+
+    <h1>Crystal Collector Game</h1><br><br>
+
+    <p>
+        You will be given a random number at the start of the gamel.<br><br>
+        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total.<br><br>
+        You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. <br><br>
+        Each the game starts the values of each crystal will be randomized.<br><br>
+    <p>
+
+    <p>Number to Get: <span id="goal"></span></p>
+    <p>Wins: <span id="wins"></span></p>
+    <p>Losses: <span id="losses"></span></p>
+    <p>Current Score: <span id="score"></span></p>
+
+    <div class="crystals">
+        <img src="assets/images/red.png" class="crystal-image" id="red">
+        <img src="assets/images/yellow.png" class="crystal-image" id="yellow">
+        <img src="assets/images/green.png" class="crystal-image" id="green">
+        <img src="assets/images/blue.png" class="crystal-image" id="blue">
+    </div>
+
+
+</div>
+
+    
+</body>
+</html>
